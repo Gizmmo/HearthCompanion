@@ -14,7 +14,7 @@ function viewsHtml() {
   return gulp.src(['!index.html', 'components/**/*.html'], { cwd: paths.app })
   .pipe(htmlmin({collapseWhiteSpace: true}))
   .pipe(ngHtml2Js({
-    moduleName: 'yourAppName',
+    moduleName: 'hearthCompanion',
     stripPrefix: paths.app.replace(/\\/g, '/'),
     prefix: 'components/'
   }))

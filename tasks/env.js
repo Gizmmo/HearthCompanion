@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 function writeConfig(env, extension) {
   extension = extension ? '.' + extension + '.js' : '.js';
   return gulp.src(paths.config + 'env.json')
-    .pipe(gulpConfig('yourAppName.common', {
+    .pipe(gulpConfig('hearthCompanion.common', {
       environment: env,
       constants: {
         I18N: {

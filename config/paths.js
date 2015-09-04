@@ -1,7 +1,7 @@
 'use strict';
 
 var root = require('fs').realpathSync(__dirname + '/../..') + '/',
-  client = root + 'angular-seed/',
+  client = root + 'HearthCompanion/',
   config = client + 'config/',
   app = client + 'app/',
   generated = app + 'components/generated';

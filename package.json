@@ -55,5 +55,8 @@
     "require-dir": "^0.3.0",
     "scss-lint": "0.0.0",
     "shelljs": "^0.3.0"
+  },
+  "dependencies": {
+    "gulp-merge": "^0.1.1"
   }
 }

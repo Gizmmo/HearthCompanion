@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp'),
-browserSync = require('browser-sync').create,
+browserSync = require('browser-sync').create(),
 paths = require('../config/paths.js');
 
 gulp.task('serve', [
