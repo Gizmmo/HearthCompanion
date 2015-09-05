@@ -1,0 +1,2 @@
+angular
+  .module('hearthCompanion.deckCreator', []);
