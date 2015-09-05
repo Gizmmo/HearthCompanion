@@ -1,3 +1,5 @@
+'use strict';
+
 angular
   .module('hearthCompanion.splash')
   .controller('SplashController', SplashController);

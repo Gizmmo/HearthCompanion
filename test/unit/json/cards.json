@@ -1,0 +1,22 @@
+{
+  "data": {
+    "Basic": [{
+        "cardId": "GAME_004",
+        "name": "AFK",
+        "cardSet": "Basic",
+        "type": "Enchantment",
+        "text": "Your turns are shorter.",
+        "locale": "enUS"
+      },
+
+      {
+        "cardId": "GAME_004",
+        "name": "AFK",
+        "cardSet": "Basic",
+        "type": "Enchantment",
+        "text": "Your turns are shorter.",
+        "locale": "enUS"
+      }
+    ]
+  }
+}

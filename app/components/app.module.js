@@ -1,2 +1,10 @@
+'use strict';
+
 angular
-  .module('hearthCompanion', ['ui.router', 'hearthCompanion.common', 'hearthCompanion.splash'])
+  .module('hearthCompanion', [
+    'hearthCompanion.core',
+    'hearthCompanion.common',
+    'hearthCompanion.services',
+    'hearthCompanion.splash',
+    'hearthCompanion.deckCreator',
+  ]);

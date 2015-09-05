@@ -1,3 +1,5 @@
+'use strict';
+
 describe('On the splash page', function() {
 
   var splashController;
@@ -34,6 +36,6 @@ describe('On the splash page', function() {
     spyOn(splashController, 'inc');
     splashController.inc();
     expect(splashController.inc).toHaveBeenCalled();
-  })
+  });
 
 });
